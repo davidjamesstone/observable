@@ -2,7 +2,7 @@
   "name": "observable",
   "version": "0.0.0",
   "description": "Observable mixin using jquery $.Callbacks. CommonJS / browserify.",
-  "main": "main.js",
+  "main": "observable.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "bundle": "browserify index.js -o bundle.js"
