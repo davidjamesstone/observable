@@ -10,7 +10,7 @@ function Observable() {
   this.off = function(event, fn) {
     listeners(event).remove(fn);
   };
-  this.trigger = function(event, data) {
+  this._trigger = function(event, data) {
     listeners(event).fireWith(this, [data]);
   };
 }
